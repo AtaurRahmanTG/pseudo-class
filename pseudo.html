@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<style>
+    h3{
+        color:peru;
+    }
+    /* hover means mouse over */
+    h3:hover{
+        color: tomato;
+        background-color: skyblue;
+    }
+    input:focus{
+        color: blue;
+        /* padding-left: 20px; */
+        outline: 0;
+        border: 2px  solid red;
+    }
+    a:visited{
+        color: gray;
+    }
+    /* li:last-child{
+        color: red;
+    } */ 
+    /* li:first-child{
+        background-color: aqua;
+    } */ 
+     /* li:nth-child(2n){
+        color: blueviolet;
+     } */
+      li:nth-child(3n+1){
+        color: blueviolet;
+      }
+
+
+</style>
+<body>
+    <h3>My Heading</h3>
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.dreamworks.com/movies/madagascar">Mada</a>
+    <a href="https://www.google.com">googli</a>
+    <a href="https://github.com/">gittu</a>
+    <a href="https://www.mongodb.com/">Monglli</a>
+
+    <ul>
+        <li>Alia</li>
+        <li>Balia</li>
+        <li>Kalia</li>
+        <li>dalia</li>
+        <li>plaiya</li>
+        <li>jaliay</li>
+        <li>maliya</li>
+    </ul>
+
+</body>
+</html>
